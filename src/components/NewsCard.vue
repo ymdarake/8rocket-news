@@ -6,7 +6,7 @@
             <p class="is-size-7" v-html="news.content"></p>
         </div>
         <modal :isActive="isActive" @close="isActive = false">
-            <p v-html="news.fullContent"></p>
+            <p class="is-size-7" v-html="news.fullContent"></p>
         </modal>
     </div>
 </template>
